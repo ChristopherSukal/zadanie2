@@ -1,50 +1,99 @@
 .logo{
     position: absolute;
     left: 10px;
-
+  }
+  nav {
+    background-color: white;
+    overflow: hidden;
+    position: static;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
   }
   ul {
     list-style-type: none;
     margin: 10px;
     padding: 40px;
+    text-align: center;
   }
   li {
     display: inline;
     float: center;
   }
-  
   li a {
     color: black;
     position: static;
-    text-align: center;
+    text-align: right;
     padding: 12px 14px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
   }
-  ul .boxed{
+ .box{
     text-align: center;
-    position: right;
+    color: rgb(175, 56, 56);
     width: 123px;
-    height: 24px;
+    height: 35px;
     border: 1px solid blue;
     background-color: blue;
 }
-  a:hover {
-    text-decoration: none;
-    color: blue;
-  }
-  .active {
-    background-color: #04AA6D;
-  }
-  h1 {
+.row{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+    background-color: rgb(0, 106, 255);
+}
+.row h1{
+    font-size: 20px;
+    color: black;
     text-align: center;
-    color: rgb(0, 0, 0);
-  }
-  p {
+}
+.row h2{
+    font-size: 15px;
+    color: black;
     text-align: center;
-    color: rgb(0, 0, 0);
-  }
-  .row {
-    justify-content: left;
-  }
-  
+}
+.row img{
+    max-width: 100%;
+    padding: 50px 0;
+    position: relative;
+    right: 5px;
+}
+.col-2{
+    flex-basis: 40%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px 0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 20px 0;
+}
+.row-2{
+    position: center;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: black;
+}
+.row-2 p{
+    margin-top: 100px;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+.col-2 p{
+    color: black;
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
