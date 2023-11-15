@@ -97,3 +97,24 @@
     margin-top: 20px;
     text-align: center;
 }
+
+.user-profile-card {
+    margin-top: 60px;
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.user-profile-card-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.user-profile-card-avatar {
+    text-align: center;
+}
+
+.img-card-avatar {
+    border-radius: 50px;
+}
