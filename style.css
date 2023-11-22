@@ -125,10 +125,7 @@ li a {
     text-align: left;
     margin: 20px;
 }
-.row-3{
-    justify-items: auto;
-}
-.nadpis{
+.row-3 .heading{
     position: center;
     font-size: 32px;
     flex-wrap: wrap;
@@ -180,4 +177,30 @@ li a {
     background-color: rgb(248, 146, 185);
     color: rgb(255, 57, 57);
     font-size: 50px;
+}
+.cards{
+    justify-content: space-between;
+    display: inline-table;
+    max-width: 1320px;
+    align-items: center;
+}
+.cardhead{
+    font-size: 35px;
+    color: black;
+}
+.column {
+    width: 20%;
+    height: 100px;
+    padding: 0 10px;
+    display: inline-table;
+    float: left;
+    margin-bottom: 20px;
+}
+.card{
+    padding: 16px;
+    text-align: center;
+    align-items: right;
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
