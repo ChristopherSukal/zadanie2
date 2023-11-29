@@ -2,9 +2,15 @@
     position: absolute;
     left: 10px;
 }
+.nad{
+    text-align: center;
+}
+.hr{
+    color: rgb(67, 176, 253);
+}
 nav {
    max-width: 1320px; 
-   margin-top: 40px;
+   margin-top: 20px;
    display: flex;
    align-items: center;
    justify-content: center;
