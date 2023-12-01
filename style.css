@@ -1,3 +1,7 @@
+*{
+    font-family: 'SF Pro Display', sans-serif;
+    letter-spacing: 1px;
+}
 .logo{
     position: absolute;
     left: 10px;
@@ -10,6 +14,8 @@
 }
 nav {
    max-width: 1320px; 
+   margin: auto;
+
    margin-top: 20px;
    display: flex;
    align-items: center;
@@ -38,34 +44,37 @@ li a {
     text-decoration: none;
     font-size: 15px;
 }
-.box li{
-    display: inline-block;
+.box a {
+    display: flex;
     text-align: center;
+    align-items: center;
     margin-top: 10px;
     color: white;
+    text-decoration: none;
     width: 140px;
     height: 50px;
-    border: 1px solid rgb(83, 141, 240);
     background-color: rgb(83, 141, 240);
 }
 .row {
+    background-color: rgb(83, 141, 240);
+}
+.hero {
+    max-width: 1320px; 
+    margin: auto;
     display: flex;
     font-size: 25px;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    color: black;
-    background-color: rgb(83, 141, 240);
+    color: rgb(255, 255, 255);
 }
-.row h1 {
-    font-size: 20px;
-    color: white;
-    text-align: center;
+.col-1{
+    text-align:left;
 }
-.row h2 {
-    font-size: 15px;
+.row p {
+    font-size: 25px;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 .row img{
     max-width: 100%;
@@ -73,6 +82,11 @@ li a {
     position: relative;
     right: 5px;
 }
+.why {
+    max-width: 1320px; 
+    margin: auto;
+}
+
 .col-2{
     flex-basis: 40%;
     min-width: 300px;
@@ -131,13 +145,20 @@ li a {
     text-align: left;
     margin: 20px;
 }
+.row-3 {
+    max-width: 1320px;
+    margin: auto;
+    display: flex;
+}
 .row-3 .heading{
-    position: center;
     font-size: 32px;
-    flex-wrap: wrap;
     color: black;
     margin-top: 100px;
     margin-left: 50px;
+}
+.row-3 .vision {
+    display: flex;
+    flex-direction: column;
 }
 .col-3 p{
     flex-basis: 40%;
@@ -153,60 +174,107 @@ li a {
     display: grid;
     grid-template-columns: auto auto; 
     padding: 120px;
-    justify-content: right;
+    justify-content: center;
     text-align: right;
 }
 .boxy .box1{
     width: 250px;
     height: 180px;
+    margin: 8px;
     background-color: rgb(146, 183, 248);
     color: rgb(57, 126, 255);
     font-size: 50px;
 }
+.box1 p{
+    font-size: 20px;
+}
 .boxy .box2{
     width: 250px;
     height: 180px;
+    margin: 8px;
     background-color: rgb(164, 255, 202);
     color: rgb(72, 255, 0);
     font-size: 50px;
 }
+.box2 p{
+    font-size: 20px;
+}
 .boxy .box3{
     width: 250px;
     height: 180px;
+    margin: 8px;
     background-color: rgb(240, 253, 166);
     color: rgb(255, 225, 0);
     font-size: 50px;
 }
+.box3 p{
+    font-size: 20px;
+}
 .boxy .box4{
     width: 250px;
     height: 180px;
+    margin: 8px;
     background-color: rgb(248, 146, 185);
     color: rgb(255, 57, 57);
     font-size: 50px;
 }
+.box4 p{
+    font-size: 20px;
+}
 .cards{
-    justify-content: space-between;
-    display: inline-table;
+    display: flex;
+    justify-content: center;
     max-width: 1320px;
-    align-items: center;
+    margin: auto;
 }
 .cardhead{
     font-size: 35px;
     color: black;
+    max-width: 1320px;
 }
 .column {
     width: 20%;
-    height: 100px;
+    height: 200px;
     padding: 0 10px;
-    display: inline-table;
-    float: left;
-    margin-bottom: 20px;
+    display: flex;
+    max-width: 1320px;
+    margin-bottom: 100px;
 }
 .card{
     padding: 16px;
-    text-align: center;
-    align-items: right;
+    text-align: left;
+    max-width: 1320px;
 }
 .card:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+.lokalita{
+    font-size: 40px;
+    color: black;
+    text-align: center;
+}
+.skoly{
+    display: flex;
+    max-width: 1320px;
+    justify-content: center;
+}
+.mapy{
+    display: flex;
+    max-width: 1320px;
+    justify-content: center;
+    text-align: left;
+}
+.mapy a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(67, 176, 253);   
+}
+.mapa1{
+    margin: 40px;
+}
+.mapa2{
+    margin: 40px;
 }
