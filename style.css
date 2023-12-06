@@ -278,3 +278,22 @@ li a {
 .mapa2{
     margin: 40px;
 }
+
+
+.sliderhead{
+   font-size: 35px;
+   color: black;
+   max-width: 1320px;
+}
+.slider {
+    background: rgb(242, 245, 255);
+}
+.sliderimg{
+    max-width: 1320px;
+    margin: auto;
+}
+  /* Slides */
+.mySlides {
+    padding: 80px;
+    text-align: left;
+}
