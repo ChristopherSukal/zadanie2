@@ -232,6 +232,12 @@ li a {
     color: black;
     max-width: 1320px;
 }
+.cardhead2{
+    font-size: 35px;
+    color: black;
+    max-width: 1320px;
+    text-align: center;
+}
 .column {
     width: 20%;
     height: 200px;
@@ -239,6 +245,11 @@ li a {
     display: flex;
     max-width: 1320px;
     margin-bottom: 100px;
+}
+.column2{
+    font-size: 40px;
+    color: black;
+    text-align: center;
 }
 .card{
     padding: 16px;
@@ -296,4 +307,27 @@ li a {
 .mySlides {
     padding: 80px;
     text-align: left;
+}
+
+.plaintext{
+    padding: 16px;
+    text-align: center;
+    max-width: 1320px;
+}
+.boxy2{
+    justify-content: center;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 330px 330px 330px; 
+    padding: 60px;
+}
+.boxcard1 .boxcard2 .boxcard3 .boxcard4 .boxcard5 .boxcard6{
+    margin: 8px;
+    vertical-align: middle;
+    text-align: left;
+}
+.fotky{
+    font-size: 40px;
+    color: black;
+    text-align: center;
 }
